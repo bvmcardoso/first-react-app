@@ -6,8 +6,22 @@ import {
 
 class App extends Component {
 
+    constructor() {
+        super()
+        console.log("[constructor]")
+    }
+
+    componentDidMount() {
+        console.log('[componentDidMount]')
+    }
+
+    componentDidUpdate() {
+        console.log('[componentDidUpdate]')
+    }
+
     render() {
-        return <h1 > Hello world < /h1>
+        console.log("[render]")
+        return <h1> Hello world </h1>
     }
 }
 
