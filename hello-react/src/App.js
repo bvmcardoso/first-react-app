@@ -12,10 +12,12 @@ class App extends Component {
     }
 
     componentDidMount() {
+        // Called when the component is mounted on the DOM
         console.log('[componentDidMount]')
     }
 
     componentDidUpdate() {
+        // Called when the property has been changed or when the state is changed
         console.log('[componentDidUpdate]')
     }
 
@@ -24,6 +26,8 @@ class App extends Component {
         return <h1> Hello world </h1>
     }
 }
+
+
 
 
 export default App;
