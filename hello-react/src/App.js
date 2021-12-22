@@ -1,21 +1,15 @@
 import logo from './logo.svg';
 import './App.css';
-import {
-    Component
-} from 'react';
+import Counter from './Counter';
+import Stepper from './Stepper'
 
-import Counter from './Counter.js'
-
-class App extends Component {
-
-    render() {
-        return (
-            <div>
-            <h1>Hello world</h1>
-                <Counter />
-            </div>
-        )
-    }
+function App() {
+    return (
+        <div className="App">
+            App component
+            <Stepper />
+        </div>
+    );
 }
 
-export default App
+export default App;
